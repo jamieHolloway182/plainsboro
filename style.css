@@ -41,6 +41,14 @@ audio {
     margin: 2%;
 }
 
+#title{
+    background-color: rgba(220, 220, 220, 0.4); /* Semi-transparent black background */
+    font-size: 50px;
+    margin: 0 ;
+    margin-top: 32px;
+    padding: 0.5%;
+}
+
 @media only screen and (max-device-width: 500px){
     #linkContainer{
         font-size: xx-large;
@@ -52,5 +60,9 @@ audio {
 
     #songContainer{
         height: 75%;
+    }
+
+    #title{
+        font-size: 75px;
     }
 }
