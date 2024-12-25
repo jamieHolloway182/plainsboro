@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image: url('background.jpeg');
+    background-size: cover;
+}
+
+#songContainer {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    max-height: 70%;
+}
+
+audio {
+    width: 100%;
+    max-width: 400px;
+}
