@@ -38,5 +38,19 @@ audio {
 }
 
 #linkContainer a{
-    padding: 1%;
+    margin: 2%;
+}
+
+@media only screen and (max-device-width: 500px){
+    #linkContainer{
+        font-size: xx-large;
+    }
+
+    #linkContainer a{
+        margin: 4%;
+    }
+
+    #songContainer{
+        height: 75%;
+    }
 }
